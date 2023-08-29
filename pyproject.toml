@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "olnf-website"
+version = "0.1.0"
+description = "Website for Old Love, New Friend"
+authors = ["Noah Tanner <50159154+kevinshome@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
